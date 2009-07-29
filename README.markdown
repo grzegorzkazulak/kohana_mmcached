@@ -1,6 +1,6 @@
 ## What is MMemcached ##
 
-MMemcached is a well written module for popular Kohana PHP framework.
+MMemcached is a well written module for popular Kohana PHP framework that enables your application to connect to multiple memcached servers at once.
 
 ## How To ##
 ### Instalation ###
