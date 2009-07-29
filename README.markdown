@@ -6,25 +6,25 @@ MMemcached is a well written module for popular Kohana PHP framework that enable
 ### Instalation ###
 At the end of your application's `config.php` file you will find few lines like this: 
 
-  $config['modules'] = array
-  (
-  	// MODPATH.'auth',      // Authentication
-  	// MODPATH.'kodoc',     // Self-generating documentation
-  	// MODPATH.'gmaps',     // Google Maps integration
-  	// MODPATH.'archive',   // Archive utility
-  	// MODPATH.'payment',   // Online payments
-  );
+    $config['modules'] = array
+    (
+    	// MODPATH.'auth',      // Authentication
+    	// MODPATH.'kodoc',     // Self-generating documentation
+    	// MODPATH.'gmaps',     // Google Maps integration
+    	// MODPATH.'archive',   // Archive utility
+    	// MODPATH.'payment',   // Online payments
+    );
   
 To enable MMcached just add another one:
   
-  MODPATH.'mmemcached'
+    MODPATH.'mmemcached'
   
 To set up the servers you have to add few entries in mmemcached.php config file. Example below:
 
-  $config['memcached_servers'] = array( 
-    array('127.0.0.1' => '11211'),
-    array('127.0.0.1' => '11111')
-  );
+    $config['memcached_servers'] = array( 
+      array('127.0.0.1' => '11211'),
+      array('127.0.0.1' => '11111')
+    );
   
 ### Usage ###
 
